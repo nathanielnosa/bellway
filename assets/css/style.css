@@ -1,0 +1,140 @@
+.carousel img{
+    height: 90vh;
+}
+.carousel .bg-dark{
+    background: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: .5;
+}
+.carousel{
+    position: relative;
+}
+.carousel .carousel-indicators{
+    top:63%
+}
+.carousel .carousel-caption{
+    z-index: 2;
+    left: 0;
+    top: 20%;
+    width: 65%;
+    margin: 0 auto;
+    text-align: start;
+}
+.carousel .carousel-caption h2{
+    font-size: 4rem;
+}
+.carousel .carousel-caption p{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.btn{
+    font-size: .9rem;
+    padding: .5rem;
+    transition: all 1s ease;
+}
+.btn:hover{
+    background: #000;
+    outline: #000;
+    border: #000;
+    color: white;
+}
+/* intro */
+#intro{
+    z-index: 5;
+    width: 100%;
+    background: red;
+}
+#intro-top{
+    height: 80vh;
+    position: absolute;
+    left: 7%;
+    top: 80%;
+    z-index: 5;
+    width: 100%;
+}
+
+
+#intro .card {
+    height: 35vh;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  /* This container is needed to position the front and back side */
+  #intro .card-inner {
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  #intro .card:hover,#intro .card:hover .card {
+    transform: rotateY(180deg);
+  }
+
+  
+  /* Position the front and back side */
+  .card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  /* Style the front side (fallback if image is missing) */
+
+  #intro .card:hover .card-inner .card-back {
+    transform: rotateY(180deg);
+  }
+
+  /* about */
+  #about{
+    margin-top: 35rem;
+  }
+
+  /* order */
+  #order{
+    height: 40vh;
+    background-image: url(/assets/img/men.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+#order .bg-blue{
+    position: relative;
+    background: rgba(15, 15, 221, 0.5);
+    width: 100%;
+    height: 100%;
+}
+#order .content{
+    position: absolute;
+    color: white;
+    z-index: 3;
+    top: 250%;
+    left:30%
+}
+
+/* cop */
+#cop{
+    background: url(/assets/img/c.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    height: 65vh;
+}
+#cop .bg-dark{
+    width: 100%;
+    height: 65vh;
+    background-color: #000;
+    opacity: .6;
+    z-index: 1;
+    position: absolute;
+}
+#cop .container{
+    position: relative;
+    z-index: 1;
+}
