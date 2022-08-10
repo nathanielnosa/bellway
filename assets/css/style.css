@@ -189,3 +189,18 @@
 .footericon{
     text-align: center;
 }
+
+/* login */
+#login .btn{
+    color: white !important;
+    background: black;
+}
+.btn:hover{
+    color: black !important;
+    background: #fff;
+} 
+
+.link{
+    text-decoration: none;
+}
+
