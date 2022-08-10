@@ -186,3 +186,26 @@
 .footericon{
     text-align: center;
 }
+
+/* login */
+#login .btn{
+    color: white !important;
+    background: black;
+}
+.btn:hover{
+    color: black !important;
+    background: #fff;
+} 
+
+.link{
+    text-decoration: none;
+}
+
+/* register */
+.main{
+    background: url(/assets/img/pexels-ricardo-esquivel-2383277.jpg);
+    color: white;
+    background-size: cover;
+    
+}
+
