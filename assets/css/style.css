@@ -138,3 +138,77 @@
     position: relative;
     z-index: 1;
 }
+
+/* contact */
+/* contact */
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    display: flex;
+    padding: 8rem 3rem;
+    align-items: center;
+    background-image: url(/assets/img/pexels-trev-adams-12589549\ \(3\).jpg);
+    background-repeat: no-repeat;
+}
+#banner .contact h3{
+    color: #fd5e25;
+}
+.container .card{
+    width: 50%;
+    height: 82vh;
+    background-color: #1b2943;
+    
+}
+.container .card .btn{
+    background-color: #fd5e25;
+    color: white;
+}
+#icons i{
+    
+   
+    color: #fd5e25;
+}
+#icons{
+    display: flex;
+    justify-content: space-between;
+}
+#map{
+    background-color: #0b111d;
+}
+#map h4{
+    color: #fd5e25;
+}
+.footericon .btn{
+    background-color: #3b465c;
+}
+.footericon .btn i{
+    color: white;
+}
+.footericon{
+    text-align: center;
+}
+
+/* login */
+#login .btn{
+    color: white !important;
+    background: black;
+}
+.btn:hover{
+    color: black !important;
+    background: #fff;
+} 
+
+.link{
+    text-decoration: none;
+}
+
+/* register */
+.main{
+    background: url(/assets/img/pexels-ricardo-esquivel-2383277.jpg);
+    color: white;
+    background-size: cover;
+    
+}
+
