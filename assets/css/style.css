@@ -141,10 +141,7 @@
 
 /* contact */
 /* contact */
-*{
-    margin: 0;
-    padding: 0;
-}
+
 #banner{
     display: flex;
     padding: 8rem 3rem;
