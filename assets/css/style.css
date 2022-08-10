@@ -204,3 +204,11 @@
     text-decoration: none;
 }
 
+/* register */
+.main{
+    background: url(/assets/img/pexels-ricardo-esquivel-2383277.jpg);
+    color: white;
+    background-size: cover;
+    
+}
+
